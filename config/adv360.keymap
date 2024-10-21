@@ -38,11 +38,11 @@
 
         default_layer {
             bindings = <
-&kp ESC           &kp F1     &kp F2    &kp F3         &kp F4          &kp F5  &kp F6                                                       &kp F7       &kp F8  &kp F9           &kp F10        &kp F11   &kp F12   &kp MINUS
-&kp TAB           &kp Q      &kp W     &kp E          &mt LEFT_GUI R  &kp T   &none                                                        &none        &kp Y   &mt RIGHT_GUI U  &kp I          &kp O     &kp P     &kp MINUS
-&kp LEFT_CONTROL  &kp A      &kp S     &kp D          &kp F           &kp G   &mo 4     &kp LCTRL  &kp LALT      &kp LGUI       &mo 4      &mo 4        &kp H   &kp J            &kp K          &kp L     &kp SEMI  &kp RIGHT_CONTROL
-&kp LSHFT         &kp Z      &kp X     &kp C          &lt 4 V         &kp B                        &kp HOME      &kp PG_UP                              &kp N   &lt 4 M          &kp COMMA      &kp DOT   &kp FSLH  &kp RSHFT
-&mo 2             &kp GRAVE  &kp CAPS  &kp RIGHT_ALT  &kp LEFT_GUI            &kp BSPC  &mo 1      &kp END       &kp PAGE_DOWN  &kp ENTER  &lt 3 SPACE          &kp RIGHT_GUI    &kp RIGHT_ALT  &kp LBKT  &kp RBKT  &mo 0
+&kp ESC           &kp F1        &kp F2        &kp F3         &kp F4          &kp F5  &kp F6                                                       &kp F7       &kp F8  &kp F9           &kp F10        &kp F11       &kp F12   &kp MINUS
+&kp TAB           &kp Q         &kp W         &kp E          &mt LEFT_GUI R  &kp T   &none                                                        &none        &kp Y   &mt RIGHT_GUI U  &kp I          &kp O         &kp P     &kp MINUS
+&kp LEFT_CONTROL  &kp A         &kp S         &kp D          &kp F           &kp G   &mo 4     &kp LCTRL  &kp LALT      &kp LGUI       &mo 4      &mo 4        &kp H   &kp J            &kp K          &kp L         &kp SEMI  &kp RIGHT_CONTROL
+&kp LSHFT         &kp Z         &kp X         &kp C          &lt 4 V         &kp B                        &kp HOME      &kp PG_UP                              &kp N   &lt 4 M          &kp COMMA      &kp DOT       &kp FSLH  &kp RSHFT
+&mo 2             &kp CAPSLOCK  &kp LEFT_ALT  &kp RIGHT_ALT  &kp LEFT_GUI            &kp BSPC  &mo 1      &kp END       &kp PAGE_DOWN  &kp ENTER  &lt 3 SPACE          &kp RIGHT_GUI    &kp RIGHT_ALT  &kp LEFT_ALT  &kp RBKT  &mo 0
             >;
         };
 
