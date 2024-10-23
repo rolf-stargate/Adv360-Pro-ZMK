@@ -81,7 +81,7 @@
 &none  &none      &none      &none          &none                 &none                  &none                                       &none   &none            &none       &none        &none             &none              &none
 &none  &none      &kp PLUS   &kp ASTERISK   &kp LEFT_BRACE        &kp RIGHT_BRACE        &none                                       &none   &kp CARET        &kp HASH    &kp EQUAL    &kp PIPE          &kp BACKSLASH      &none
 &none  &kp GRAVE  &kp TILDE  &kp PERCENT    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none   &trans  &trans      &trans  &trans  &none   &kp EXCLAMATION  &kp DOLLAR  &kp AT_SIGN  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &none
-&none  &none      &none      &kp AMPERSAND  &kp LEFT_BRACKET      &kp RIGHT_BRACKET                      &trans      &trans                  &none            &none       &none        &none             &none              &none
+&none  &none      &none      &kp AMPERSAND  &kp LEFT_BRACKET      &kp RIGHT_BRACKET                      &trans      &trans                  &none            &none       &kp UNDER    &kp MINUS         &none              &none
 &none  &none      &none      &none          &none                                        &trans  &trans  &trans      &trans  &trans  &trans                   &none       &none        &none             &none              &none
             >;
         };
