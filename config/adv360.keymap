@@ -70,7 +70,7 @@
             bindings = <
 &trans  &none  &none  &none  &none  &none  &none                                  &none   &none           &none           &none         &none            &none  &trans
 &trans  &none  &none  &none  &none  &none  &none                                  &none   &none           &none           &none         &none            &none  &trans
-&trans  &none  &none  &none  &none  &none  &none  &none  &none      &none  &none  &none   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &none  &trans
+&trans  &to 5  &none  &none  &none  &none  &none  &none  &none      &none  &none  &none   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &none  &trans
 &trans  &none  &none  &none  &none  &none                &none      &none                 &none           &none           &none         &none            &none  &trans
 &trans  &none  &none  &none  &none         &none  &none  &none      &none  &none  &trans                  &none           &none         &none            &none  &trans
             >;
@@ -83,6 +83,16 @@
 &trans  &kp GRAVE  &kp TILDE  &kp PERCENT    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none   &trans  &trans      &trans  &trans  &none   &kp EXCLAMATION  &kp DOLLAR  &kp AT_SIGN  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &trans
 &trans  &none      &none      &kp AMPERSAND  &kp LEFT_BRACKET      &kp RIGHT_BRACKET                      &trans      &trans                  &none            &none       &kp UNDER    &kp MINUS         &none              &trans
 &trans  &none      &none      &none          &none                                        &trans  &trans  &trans      &trans  &trans  &trans                   &none       &none        &none             &none              &trans
+            >;
+        };
+
+        aseprite {
+            bindings = <
+&trans  &trans         &trans         &trans         &trans         &trans     &trans                                      &trans  &trans         &trans  &trans  &trans  &trans  &trans
+&trans  &trans         &trans         &trans         &kp LS(LA(R))  &trans     &trans                                      &trans  &trans         &trans  &trans  &trans  &trans  &trans
+&trans  &kp LS(LA(A))  &kp LA(LS(S))  &kp LS(LA(D))  &kp LS(LA(F))  &kp LA(G)  &trans  &trans  &trans      &trans  &trans  &trans  &kp LS(LA(B))  &trans  &trans  &trans  &trans  &trans
+&trans  &trans         &kp LS(LA(X))  &kp LS(LA(C))  &kp LS(LA(V))  &trans                     &trans      &trans                  &kp LS(LA(N))  &trans  &trans  &trans  &trans  &trans
+&trans  &trans         &trans         &trans         &trans                    &to 0   &trans  &trans      &trans  &trans  &trans                 &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
